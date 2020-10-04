@@ -1,0 +1,18 @@
+
+//Öppna terminal
+//Gå till projektmappen:
+//cd /Documents/kod/record-audio-master/record-server-example
+//Skriv:
+//npm run scss
+
+//https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+$body-bg: #FF0000;
+$body-color: #111;
+
+#my-jumbotron {
+  background-color: blue !important;
+  padding: 0px;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

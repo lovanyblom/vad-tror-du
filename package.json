@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "scss": "node-sass --watch ./scss -o ./css"
   },
   "keywords": [
     "record",
@@ -16,6 +17,7 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "express": "^4.17.1",
+    "node-sass": "^4.14.1",
     "uuid": "^3.3.2"
   }
 }
